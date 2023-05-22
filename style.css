@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@media screen and (max-width:600px){
+  .portfolio-name p{
+    color:white;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    background-color: black;
+  }
+  
+  .icons li a img{
+    width:20px;
+    height:20px;
+  }
+  .image-container{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background-color: black;
+    height:300px;
+  }
+  .text-box{
+    background-color: black;
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    color:white;
+   text-align: center;
+
+  }
+  .text-box h1{
+    font-size:40px;
+    font-family: 'Wix Madefor Display', sans-serif;
+  }
+  .text-box h1 span{
+    border-bottom:5px solid green;
+  }
+  .text-box p{
+    line-height: 30px;
+    letter-spacing: 2;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+    width:350px;
+    margin:0 auto;
+  }
+  .text-box h2{
+    font-size:30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+  }
+}
