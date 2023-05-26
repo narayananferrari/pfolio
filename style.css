@@ -46,7 +46,7 @@
     padding:1rem;
   
   }
-  .text-box h2 span{
+  .text-box>h2>span{
     border-bottom: 2px solid var(--neutral-color);
   }
  
@@ -54,7 +54,7 @@
     text-align: justify;
     text-align-last:center;
   }
-  .text-box h1 span{
+  .text-box>h1>span{
    border-bottom:4px solid var(--neutral-color);
   }
   .showcase-container{
