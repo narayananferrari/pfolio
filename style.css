@@ -18,6 +18,16 @@
     margin:0 auto;
     align-items: center;
   }
+  .head-scroll{
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    border-bottom: 2px solid var(--neutral-color);
+    font-weight: bolder;
+
+  }
   .portfolio-name{
     font-size: 20px;
     text-align: center;
@@ -30,6 +40,14 @@
   .icons li a img{
     width:20px;
     height:20px;
+  }
+  .image-container{
+    display: flex;
+    justify-content: center;
+  }
+  .image-container img{
+    width:80%;
+    height:au/.,kmhgfdsa  to;
   }
   .text-box{
     display: flex;
