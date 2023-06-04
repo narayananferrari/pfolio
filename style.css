@@ -20,7 +20,7 @@
     align-items: center;
   }
   .head-scroll{
-    color:var(--secondary-color);
+    color:var(--neutral-color);
     background-color: var(--primary-color);
     padding: 1rem 0.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -64,15 +64,19 @@
   letter-spacing:1px;
   word-spacing: 0px;
   }
-  .text-box h1,p,h2{
+  .text-box h1,h2{
     color:var(--secondary-color);
     
     padding:1rem;
   
   }
+  .text-box p{
+    color:var(--alpha-color);
+  }
   .text-box h2{
     padding-bottom:50px;
     font-weight: 100;
+   
   }
   .text-box>h2>span{
 
@@ -102,6 +106,7 @@
   }
   .showcase-items p{
     padding:0;
+    color:var(--alpha-color)
   }
   .showcase-items h1{
     padding:10px;
@@ -125,7 +130,7 @@ padding:10px;
   width:100%;
   align-items: center;
   margin:1rem 0;
-  
+  font-size: 1.2rem;
  }
  
  .project-items h2{
@@ -134,6 +139,11 @@ padding:10px;
  .project-items .tags{
   align-self: flex-start;
   display: flex;
+  gap:1rem;
+  padding:1rem;
+ }
+ .tags p{
+  color:var(--alpha-color)
  }
  .project-items .links{
   display: flex;
