@@ -38,8 +38,8 @@
     justify-content: center;p
   }
   .icons li a img{
-    width:20px;
-    height:20px;
+   width:20px;
+   height: 20px;
   }
   .image-container{
     display: flex;
@@ -47,7 +47,7 @@
   }
   .image-container img{
     width:80%;
-    height:au/.,kmhgfdsa  to;
+    height:auto;
   }
   .text-box{
     display: flex;
@@ -160,4 +160,6 @@ height:auto;
 
 
  }
+
+
 }
